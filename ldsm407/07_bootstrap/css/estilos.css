@@ -1,0 +1,23 @@
+.logotipo{
+    width: 75px;
+}
+
+.nav-link{
+    color: rgba(255, 251, 0, 0.7);
+}
+
+.nav-link:hover{
+    color: rgba(255, 251, 0, 1);
+}
+
+#quien{
+    margin-top: 5rem !important;
+}
+
+#mapa{
+    height: 300px;
+}
+
+#carrusel img{
+    min-width: 320px;
+}

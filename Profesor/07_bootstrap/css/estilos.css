@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+body{
+	font-family:Chilanka,calibri;
+}
+
+
+.logotipo{
+	width:75px;
+}
+
+.nav-link {
+  color: rgba(255,255,255,.7) !important;
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255,1) !important;
+}
+
+#quien{
+	margin-top: 5rem;
+}
+
+#parrafo{
+	text-align: justify !important;
+}

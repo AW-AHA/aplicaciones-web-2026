@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Moderno</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=star_half" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <header id="inicio">
+            <img src="image/f4.jpg" alt="logotipo" id="logo">
+            <section id="titulos">
+                <h4> Diseño Reflexivo </h4>
+                <h1 id="tendencia">Tendencias de Diseño Web</h1>
+                <h3>Los usuarios desarrollaron un gusto por un estilo de vida menos ajetreado y más provechoso</h3>
+            </section>
+        </header>
+
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#menu_news">Nuevo</a>
+            <a href="#menu_contact">Contacto</a>
+            <a href="#menu_media">Medios</a>
+            <a href="galeria.html">Galería</a>
+        </nav>
+
+        <section class="contenedor" id="menu_news">
+            <h1 class="titulo">Degradados y Colores Pastel</h1>
+            <figure data-aos="fade-down-right">
+                <h3>Mi Logotipo</h3>
+                <img src="image/Claymorfismo_1.png" alt="Claymorfismo" id="img_clay">
+                <figcaption>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente praesentium error, sint officiis nam ratione libero amet rem alias ducimus molestiae odio, obcaecati accusamus impedit tempore eius accusantium, aut ipsum?
+                    Et ut numquam fuga delectus suscipit dolorem sit alias. Necessitatibus at quia sed sint qui quaerat, corporis temporibus voluptate tenetur quisquam aperiam nemo? Iure, explicabo provident. Minus rem obcaecati culpa.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos debitis laudantium sapiente voluptatibus, hic nam, ratione eligendi minus voluptatem provident molestiae veritatis quae tempore! Fuga similique ea quas numquam eligendi!
+                    Aliquid, aperiam natus. Dolorem, cupiditate! Tempora numquam facere unde voluptatum harum repellendus ex odit consequatur sed porro corrupti nam dolorem voluptas consectetur rem, soluta consequuntur temporibus fugiat! Dolores, eum veniam!
+                
+                </figcaption>
+            </figure>
+
+            <article id="concepto_clay">
+                <fieldset>
+                    <legend>¿Qué es Claymorfismo?</legend>
+                    <span class="material-symbols-outlined icono">
+                        star_half
+                    </span>
+                    <p><span>Lorem Ipsum</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum nulla doloribus soluta repellat rem tempora facilis nostrum corrupti recusandae suscipit amet aut nam perspiciatis saepe incidunt, deserunt minima ratione.</p>
+                    <ul>
+                        <li>Diseño Digital</li>
+                            <ol>
+                                <li>2D</li>
+                                <li>3D</li>
+                            </ol>
+                        <li>Desarollo Web</li>
+                    </ul>
+                </fieldset>
+            </article>
+
+            <table id="tabla" data-aos="flip-down"   data-aos-duration="1000">
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                </tr>
+                <tr>
+                    <td>7:00 - 8:00</td>
+                    <td rowspan="2">Diseño y Desarrollo</td>
+                    <td>Aplicaciones Móviles</td>
+                </tr>
+                <tr>
+                    <td>8:00 - 9:00</td>
+                    
+                    <td>Aplicaciones Móviles</td>
+                </tr>
+                <tr>
+                    <td>9:00 - 10:00</td>
+                    <td colspan="2">Estructura de Datos</td>
+                    
+                </tr>
+            </table>
+        </section>
+
+
+        <section class="contenedor" id="menu_contact">
+            <article id="glass_estilo">
+                <h2 class="titulo">Glassmorfismo</h2>
+                <form action="">
+                    <input type="text" placeholder="Apellidos">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" required placeholder="Correo electrónico">
+                    <input type="password" required placeholder="Contraseña">
+                    
+                    <input type="submit" value="Guardar">
+                </form>
+            </article>
+
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29777.44008557706!2d-101.67480131404182!3d21.10538835081254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe6af7309531%3A0xbefbb9812d129e5a!2sCentro%20Max!5e0!3m2!1ses-419!2smx!4v1790877420422!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+        </section>
+
+        <section class="contenedor" id="menu_media">
+            <h1 class="titulo">Medios</h1>
+
+            <article class="multimedios">
+                <iframe id="youtube" src="https://www.youtube.com/embed/Cqk0oOv-hEY?si=IuebImcsQXkrDLKT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+            <article class="multimedios">
+                <video src="medios/video/dove.mp4" controls poster="image/Claymorfismo_1.png" id="promo"></video>
+            </article>
+
+            <article class="multimedios">
+                <audio src="medios/audio/written in the stars.mp3" controls></audio>
+            </article>
+        </section>
+
+        <footer>
+            <section id="redes">
+                <a href="https://www.facebook.com" class="icono">N</a>
+                <a href="https://www.instagram.com" class="icono">A</a>
+                <a href="https://www.youtube.com" class="icono">I</a>
+            </section>
+
+            <span id="derechos">Copyright© 2026 Alejandro Hernández Andrade</span>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+             AOS.init();
+        </script>
+</body>
+</html>

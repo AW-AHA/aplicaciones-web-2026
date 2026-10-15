@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0px;
+}
+
+header{
+    height: 250px;
+    background-color: #00ffff;
+}
+
+nav{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -30px;
+}
+
+.general{
+    height: 60px;
+    background-color: #eeff00;
+}
+
+section{
+    background-color: #8b0298;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+    article{
+        width: 80%;
+        height: 250px;
+        background-color: #020a98;
+    }
+
+    #principal article{
+        margin: 10px auto;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    #secundario article{
+        border-radius: 20px 0;
+        margin: auto;
+        border: 5px solid #eeff00;
+    }
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+
+        #distinto{
+            box-shadow: 5px 5px 15px #000;
+        }
+
+        .borde{
+            border: 5px dotted #8b0298;
+        }

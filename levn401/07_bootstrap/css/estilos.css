@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+
+
+body{
+    font-family: Chilanka;
+}
+
+.logotipo{
+    width: 75px;
+}
+
+
+.nav-link{
+    color: rgba(173, 203, 2, 0.8);
+}
+
+.nav-link:hover{
+    color: rgba(173, 203, 2, 1);
+}
+
+#quien{
+    margin-top: 75px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #000;
+}
